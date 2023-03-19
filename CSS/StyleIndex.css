@@ -1,0 +1,193 @@
+body{
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    background: rgb(217, 225, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+   
+}
+
+div.wrapper {
+    max-width: 1000px;
+}
+
+nav{
+
+    width: 100%;
+    height: 100px;
+    background: rgb(187, 38, 73);
+   grid-column: 1/3;
+   grid-row: 1/2;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: center;
+   align-items: center;
+   padding: 10px;
+   
+   
+
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background: rgb(217, 225, 241);
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+div.wrapper nav section.hem p{
+    font-size: xxx-large;
+    display: contents;
+    flex-direction: center;
+    align-items: center;
+
+}
+
+div.wrapper nav section.insperation p{
+    font-size: xx-large;
+    display: contents;
+    flex-direction: center;
+    align-items: center;
+}
+
+
+div.wrapper nav section.kontakt p{
+    font-size: xx-large;
+    display: contents;
+    flex-direction: center;
+    align-items: center;
+}
+
+div.wrapper nav section.hem a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+div.wrapper nav section.insperation a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+div.wrapper nav section.kontakt a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+div.wrapper main{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+}
+
+
+
+div.wrapper main section.text1{
+  
+    background: red;
+    width: 500px;
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+
+}
+
+
+
+div.wrapper main section.pictures1 img{
+ 
+   background: blue;
+   width: 500px;
+    height: 500px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+div.wrapper main section.text2{
+  
+    background: red;
+    width: 500px;
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+
+}
+
+
+
+div.wrapper main section.pictures2 img{
+ 
+   background: blue;
+   width: 500px;
+   height: 500px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+
+div.wrapper main section.text3{
+  
+    background: red;
+    width: 500px;
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+
+}
+
+
+
+div.wrapper main section.pictures3 img{
+ 
+   background: blue;
+   width: 500px;
+   height: 500px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+div.wrapper main section.text4{
+  
+    background: red;
+    width: 500px;
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    
+
+}
+
+
+
+div.wrapper main section.pictures4 img{
+ 
+   background: blue;
+   width: 500px;
+   height: 500px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+}
