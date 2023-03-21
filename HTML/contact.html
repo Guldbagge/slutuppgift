@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BästaLaddstolpen</title>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS\StyleIndex.css">
+</head>
+<body>
+
+    <div class="wrapper"><!--Grid container-->
+        
+        <nav><!--Flexbox--><!--Grid container row-->
+            
+            <section class="hem">                     
+                <p>&#8962;</p>
+                <a href="index.html">Hem</a>
+            </section>
+            <section class="insperation">
+                <p>&#128161;</p> 
+                <a href="HTML\insperation.html">Inspiration</a>
+            </section>
+            <section class="kontakt">
+                <p>&#9743;</p>  
+                <a href="HTML\contact.html">Kontakt</a>
+            </section>
+            
+        </nav>
+
+        <header><!--Grid container row-->
+            <h1>Bästa ladboxen för din bil - utan att behöva leta</h1>
+            <p>Känner du för att låta andra göra jobbet? Då är du på rätt plats. Vi har gått igenom tre tester av laddstolpar och presenterar de tre vinnarna!</p>
+        </header>
+
+        <main class="contact">
+            <form id="form" name="form" method="post" action=" ">
+                <fieldset style="width: 85%;">
+                    <legend>FORMULÄR FÖR ATT SKICKA MEDDELANDE</legend>
+
+                Förnamn:<br>
+                <input type="text" name="fnamn" id="fnamn" /> <br>
+                
+                Efternamn:<br>
+                <input type="text" name="enamn" id="enamn" /> <br>
+                
+                E-postadress:<br>
+                <input type="text" name="epost" id="epost" /> <br>
+                
+                Meddelande:<br>
+                <textarea name="meddelande" id="meddelande" cols="45" rows="5"></textarea> <br>
+                
+                <fieldset style="width: 300px;">
+                  
+                    
+                    <input type="radio" name="favoritarstid" id="var" value="var" />
+                    <label for="var">Jag godkänner inte att mina personuppgifter sparas</label> <br>
+                    
+                    <input type="radio" name="favoritarstid" id="sommar" value="sommar" />
+                    <label for="sommar">Jag godkänner att mina personuppgifter sparas</label> <br>
+                    
+
+                    
+                    </fieldset>
+
+                <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+                <form method="post" action="mailto:edvin.thornholm@gmail.com" enctype="text/plain"></form>
+                
+                </form>
+
+        </main>
+
+
+
+    </div>
+<Script src="ScriptIndex.js"></Script>
+</body>
+</html>

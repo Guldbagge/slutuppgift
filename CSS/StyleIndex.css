@@ -1,13 +1,18 @@
+
+
+
 body{
     width: 100vw;
     height: 100vw;
     margin: 0;
-    background: rgb(217, 225, 241);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: first baseline;
-   
+    background-image:url(../backround.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;  
 }
 
 div.wrapper {
@@ -16,7 +21,7 @@ div.wrapper {
 
 nav{
 
-    width: 100%;
+    width: 1010px;
     height: 100px;
     background: rgb(187, 38, 73);
    grid-column: 1/3;
@@ -26,22 +31,25 @@ nav{
    flex-direction: center;
    align-items: center;
    padding: 10px;
+   position: fixed;
    
-   
-
 }
 
 header{
-    width: 100%;
-    height: 100%;
-    background: rgb(217, 225, 241);
+    width: 1010px;
+    height: 150px;
+   color: white;
     grid-column: 1/3;
     grid-row: 2/3;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+    opacity: 0.8;
+    margin-top: 120px;
+    position: fixed;
+    background: black;
 }
 
 div.wrapper nav section.hem p{
@@ -96,17 +104,23 @@ div.wrapper main{
     display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: auto;
+        margin-top: 300px;
 }
 
 
 
 div.wrapper main section.text1{
   
-    background: red;
-    width: 500px;
-    height: 500px;
+    background: rgb(198,209,221);
+    width: 440px;
+    height: 440px;
     grid-column: 1/2;
     grid-row: 1/2;
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    
     
 
 }
@@ -115,22 +129,32 @@ div.wrapper main section.text1{
 
 div.wrapper main section.pictures1 img{
  
-   background: blue;
-   width: 500px;
-    height: 500px;
+   
+   width: 470px;
+    height:470px;
     grid-column: 2/3;
     grid-row: 1/2;
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+   
+
 
 }
 
 div.wrapper main section.text2{
   
-    background: red;
-    width: 500px;
-    height: 500px;
+    background: rgb(198,209,221);
+    width: 440px;
+    height: 440px;
     grid-column: 1/2;
     grid-row: 2/3;
-    
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
 
 }
 
@@ -138,22 +162,28 @@ div.wrapper main section.text2{
 
 div.wrapper main section.pictures2 img{
  
-   background: blue;
-   width: 500px;
-   height: 500px;
+    width: 470px;
+    height:470px;
     grid-column: 2/3;
     grid-row: 2/3;
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 
 }
 
 div.wrapper main section.text3{
   
-    background: red;
-    width: 500px;
-    height: 500px;
+    background: rgb(198,209,221);
+    width: 440px;
+    height: 440px;
     grid-column: 1/2;
     grid-row: 3/4;
-    
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
 
 }
 
@@ -162,22 +192,40 @@ div.wrapper main section.text3{
 div.wrapper main section.pictures3 img{
  
    background: blue;
-   width: 500px;
-   height: 500px;
+   width: 470px;
+   height:470px;
     grid-column: 2/3;
     grid-row: 3/4;
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 
 }
 
 div.wrapper main section.text4{
   
-    background: red;
-    width: 500px;
-    height: 500px;
+    background: rgb(198,209,221);
+    width: 440px;
+    height: 440px;
     grid-column: 1/2;
     grid-row: 4/5;
-    
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: larger;
 
+}
+
+div.wrapper main section.text4 button{
+    background-color: rgb(187, 38, 73);
+    color: white;
+    width: 200px;
+    height: 75px;
+    font-size: large;
+    border-radius: 100px;
+    border: none;
 }
 
 
@@ -185,9 +233,68 @@ div.wrapper main section.text4{
 div.wrapper main section.pictures4 img{
  
    background: blue;
-   width: 500px;
-   height: 500px;
+   width: 470px;
+   height:470px;
     grid-column: 2/3;
     grid-row: 4/5;
+    border: solid rgb(236,213,184) 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 
+}
+
+div.wrapper main section.Slideshow{
+  width: 1030px;
+  grid-column: 1/3;
+  grid-row: 5/6;
+  color: white;
+  opacity: 0.8;
+  
+}
+.splide .splide__slide img{
+    width: 100%;
+
+}
+
+div.wrapper footer{
+width: 1010px;
+height: 100px;
+background: rgb(187, 38, 73);
+grid-column: 1/3;
+grid-row: 7/8;
+display: flex;
+justify-content: space-evenly;
+flex-direction: center;
+align-items: center;
+padding: 10px;
+margin-top: 30px;
+}
+
+div.wrapper footer img{
+    height: 50px;
+    margin: 20px;
+}
+
+
+div.wrapper footer section.Instagram a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+      
+}
+
+div.wrapper footer section.YouTube a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+div.wrapper footer section.Tiktok a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    
 }

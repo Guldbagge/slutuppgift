@@ -5,37 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BästaLaddstolpen</title>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS\StyleIndex.css">
 </head>
 <body>
+
     <div class="wrapper"><!--Grid container-->
         
         <nav><!--Flexbox--><!--Grid container row-->
+            
             <section class="hem">                     
                 <p>&#8962;</p>
                 <a href="index.html">Hem</a>
             </section>
             <section class="insperation">
                 <p>&#128161;</p> 
-                <a href="#">Inspiration</a>
+                <a href="HTML\insperation.html">Inspiration</a>
             </section>
             <section class="kontakt">
                 <p>&#9743;</p>  
-                <a href="#">Kontakt</a>
+                <a href="HTML\contact.html">Kontakt</a>
             </section>
             
         </nav>
 
         <header><!--Grid container row-->
             <h1>Bästa ladboxen för din bil - utan att behöva leta</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, vero nihil expedita quod molestias fuga pariatur molestiae! Tenetur aut harum soluta expedita? Praesentium dignissimos numquam id quaerat quidem cumque non!</p>
+            <p>Känner du för att låta andra göra jobbet? Då är du på rätt plats. Vi har gått igenom tre tester av laddstolpar och presenterar de tre vinnarna!</p>
         </header>
 
                 <main>
                    
                     <section class="text1">
-                        <h2>Exempel 1</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus omnis vel obcaecati repellat, molestias ipsa. Recusandae sapiente assumenda possimus eum, eveniet, earum error cum quis facilis vitae perferendis dicta.</p>
+                        <h2>Charge Amps Aura</h2>
+                        <p>Testad av M3 och fick följande omdömme: Charge Amps dubbelbox har skrytfaktor, men om du har två elbilar hemma är den absolut intressant. Även om du inte kommer i närheten av effekten den skryter med är det framför allt snyggare än två separata boxar.</p>
+                        <br>
+                        <h3>POSITIVT</h3>
+                        <ul>Snygg</ul>
+                        <ul>Dubbla uttag</ul>
+                        <h3>NEGATIVT</h3>
+                        <ul>Stor och tung</ul>
+                        <ul>Dyrare än två separata boxar</ul>
+                       
                     </section>
 
                     <section class="pictures1">
@@ -44,40 +56,94 @@
                     </section>
 
                     <section class="text2">
-                        <h2>Exempel 2</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus omnis vel obcaecati repellat, molestias ipsa. Recusandae sapiente assumenda possimus eum, eveniet, earum error cum quis facilis vitae perferendis dicta.</p>
+                        <h2>Zaptec Go 22 kW</h2>
+                        <p>Testad av hemfakta och fick följande omdömme: Så vilken laddbox är bäst i test? Enligt Hemfaktas efterforskning är Zaptec Go 22 kW det bästa valet av laddbox, detta eftersom den har en laddeffekt på hela 22 kw, uppkopplad med 4g och Wifi samt möjlighet till laddning under dygnets lägsta priser. Dessutom är den ju väldigt snygg att se på också!</p>
+                        <br>
+                        <h3>POSITIVT</h3>
+                        <ul>En av världens minsta elbilsladdare</ul>
+                        <ul>Upp till 10 gånger snabbare än med vanligt uttag</ul>
+                        <h3>NEGATIVT</h3>
+                        <ul>Inga nackdela</ul>
+                    
                     </section>
 
                     <section class="pictures2">
-                        <img src="Pictures\aura.jpg" alt="aura">
+                        <img src="Pictures\zap.jpg" alt="aura">
                     </section>
 
                     <section class="text3">
-                        <h2>Exempel 3</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus omnis vel obcaecati repellat, molestias ipsa. Recusandae sapiente assumenda possimus eum, eveniet, earum error cum quis facilis vitae perferendis dicta.</p>
+                        <h2>Wallbox Pulsar Plus laddbox 3</h2>
+                        <p>Testad av Testjakt och fick följande omdömme: Det här är en av de minsta laddboxarna i världen och helt perfekt för dig som har lite mindre utrymme. Wallbox Pulsar Plus är även lättanvänd, vem som helst kan bruka laddboxen utan större problem. I de flesta laddbox bäst i test är det den här laddboxen som vinner. </p>
+                        <br>
+                        <h3>POSITIVT</h3>
+                        <ul>Laddningstiden är 11 mil per timme</ul>
+                        <ul>Liten och smidig modell</ul>
+                        <h3>NEGATIVT</h3>
+                        <ul>Finns laddboxar med högre effekt</ul>
+                        
                     </section>
 
                     <section class="pictures3">
-                        <img src="Pictures\aura.jpg" alt="aura">
+                        <img src="Pictures\Wallbox.jpg" alt="aura">
                     </section>
                     
                     <section class="text4"><!--Random choice-->
-                        <h2>Exempel 4</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus omnis vel obcaecati repellat, molestias ipsa. Recusandae sapiente assumenda possimus eum, eveniet, earum error cum quis facilis vitae perferendis dicta.</p>
+                             <h1>
+                              Låt slumpen bestämma åt dig!
+                            </h1>
+                              <h4>Tryck på knappen och du slipper ta beslutet själv!
+                              </h4>
+                            <button onclick="generator()" class="btn">Generera!</button>
+                            <h4 class="name" id="name">
+                            </h4>
                     </section>
 
                     <section class="pictures4">
-                        <img src="Pictures\aura.jpg" alt="aura">
+                        <img src="Pictures\jeshoots-com--2vD8lIhdnw-unsplash.jpg" alt="aura"> 
+                       
                     </section>
 
                     <section class="Slideshow"><!--Slideshow-->
-                        
+                        <section class="splide" aria-labelledby="carousel-heading">
+                            
+                          
+                            <div class="splide__track">
+                                  <ul class="splide__list">
+                                      <li class="splide__slide"><img src="https://source.unsplash.com/random/800x500/?Charging station" alt=""></li>
+                                      <li class="splide__slide"><img src="https://source.unsplash.com/random/800x500/?electric car" alt=""></li>
+                                      <li class="splide__slide"><img src="https://source.unsplash.com/random/800x500/?charging car" alt=""></li>
+                                      <li class="splide__slide"><img src="https://source.unsplash.com/random/800x500/?electric vehicle" alt=""></li>
+                                      <li class="splide__slide"><img src="https://source.unsplash.com/random/800x500/?charging tesla" alt=""></li>
+                                      <li class="splide__slide"><img src="https://source.unsplash.com/random/800x500/?electric car charger" alt=""></li>
+                                  </ul>
+                            </div>
+                          </section>   
+                          <script>
+                            // DOM Script init
+                            new Splide( '.splide', {
+                                speed: 400,
+                                type: 'loop',
+                               
+                                 
+                            } ).mount();
+                          </script>
                     </section>
 
                 </main>
 
         <footer><!--Grid container row-->
-
+            <section class="Instagram">                     
+               
+                <a href="https://www.instagram.com/explore/tags/laddbox/"><img src="Pictures\Instagram-Icon.png.webp" alt="Instagram"></a>
+            </section>
+            <section class="YouTube">
+                
+                <a href="https://www.youtube.com/results?search_query=laddstolpe"><img src="Pictures\youtube.png" alt="Youtube"></a>
+            </section>
+            <section class="Tiktok">
+                
+                <a href="https://www.tiktok.com/tag/laddstolpe?lang=id-ID"><img src="Pictures\tiktok.png" alt="Tiktok"></a>
+            </section>
         </footer>
 
     </div>
