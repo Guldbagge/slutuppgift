@@ -1,1 +1,3 @@
 # slutuppgift
+
+Syftet med detta webbutvecklingsprojekt är att skapa en webbplats där du kan hitta den bästa laddbox till din elbil utan att behöva jämföra olika modeler på egen hand.  Detta eftersom jag har gjort en undersökning över flera tester på marknaden och plockat ut tre testvinnare, en från varje test. Målgruppen för webbplatsen är personer som är intresserade av laddboxar och är i färd med att köpa en. Genom att skapa en användarvänlig och informativ webbplats ska målgruppen kunna hitta en laddbox som passar deras behov och önskemål. Har de svårt att bestämma sig har de möjlighet att använda sig av webbplatsens slumpgenerator.
